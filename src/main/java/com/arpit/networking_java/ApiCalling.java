@@ -35,7 +35,7 @@ public class ApiCalling {
       Root root = gson.fromJson(json, Root.class);
       System.out.println(root.iss_position.latitude);
       System.out.println(root.iss_position.longitude);
-      
+
 
     } catch (Exception e) {
       System.out.println("Invalid URL");
